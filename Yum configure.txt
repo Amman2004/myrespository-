@@ -1,0 +1,23 @@
+  Yum configure 
+ 
+  mount -o loop rhel-9.1-x86_64-dvd.iso /repo/
+   mkdir -p /repo 
+  cd /run/media/amman/RHEL-9-1-0-BaseOS-x86_64/
+  cp -rvf AppStream/ BaseOS/ /repo/
+  vi /etc/yum.repos.d/rhel9.repo
+  cat /etc/yum.repos.d/rhel9.repo
+
+  how to install Git
+ 
+  dnf repolist all
+  umount -l /run/media/amman/RHEL-9-1-0-BaseOS-x86_64
+  dnf repolist all
+  dnf install git
+  git
+
+
+
+
+
+ 
+ 
